@@ -36,13 +36,13 @@
     </section>
 
     <section id="contact" class="container">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <p>Email: <a id="email" href=""></a></p>
         <p>LinkedIn: <a id="linkedin" href="" target="_blank">View Profile</a></p>
-        <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
+        <form action="https://formspree.io/f/manbvalp" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
