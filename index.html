@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bijay Limbu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/profile-placeholder.jpg" alt="Profile photo" class="profile-photo" />
+            <h1 id="name"></h1>
+            <p id="tagline"></p>
+            <button id="theme-toggle">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p id="bio"></p>
+        <h3>Skills</h3>
+        <div id="skills" class="skills"></div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div id="project-list" class="project-list"></div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a id="email" href=""></a></p>
+        <p>LinkedIn: <a id="linkedin" href="" target="_blank">View Profile</a></p>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Bijay Limbu</p>
+    </footer>
+</body>
+</html>
